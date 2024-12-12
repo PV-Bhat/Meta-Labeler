@@ -1,10 +1,10 @@
-# Meta-Labeller: Advanced Conversation Labeling Tool
+# Meta-Labeler: Advanced Conversation Labeling Tool
 
 <div align="center">
-  <img src="https://github.com/PV-Bhat/Meta-Labeler/blob/main/LabellerGIF.gif" title="Labeling Workflow in Action" width="682" height="362">
+  <img src="https://github.com/PV-Bhat/Meta-Labeler/blob/main/labelerGIF.gif" title="Labeling Workflow in Action" width="682" height="362">
 </div>
 
-Meta-Labeller is a powerful, user-friendly tool for processing and labeling conversational data for analytics and optimization. Designed for precision and ease of use, it integrates seamlessly into workflows, enabling users to extract insights and streamline lead management. With features like dynamic segmentation control, customizable metrics, and real-time progress tracking, Meta-Labeller simplifies conversation analysis for actionable outcomes.
+Meta-labeler is a powerful, user-friendly tool for processing and labeling conversational data for analytics and optimization. Designed for precision and ease of use, it integrates seamlessly into workflows, enabling users to extract insights and streamline lead management. With features like dynamic segmentation control, customizable metrics, and real-time progress tracking, Meta-labeler simplifies conversation analysis for actionable outcomes.
 
 ## Table of Contents
 
@@ -50,8 +50,8 @@ Meta-Labeller is a powerful, user-friendly tool for processing and labeling conv
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/meta-labeller.git
-   cd meta-labeller
+   git clone https://github.com/<your-username>/meta-labeler.git
+   cd meta-labeler
    ```
 2. Place your JSON files in a folder named `conversations` in the same directory.
 3. Run the tool:
@@ -114,7 +114,7 @@ The repository includes two sample JSON files in the `example-conversations` fol
 
 ## Applications and Benefits
 
-Meta-Labeller is ideal for:
+Meta-labeler is ideal for:
 - **Customer Support Teams:** Improving response quality and effort scores.
 - **Sales Teams:** Streamlining lead qualification with data-driven insights.
 - **Data Analysts:** Extracting actionable metrics from conversation data.
