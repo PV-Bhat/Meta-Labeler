@@ -58,7 +58,13 @@ Meta-Labeller is a powerful, user-friendly tool for processing and labeling conv
    ```bash
    python conversation-labeler.py
    ```
+4. Input the file directory in the shell in order to start labelling.
 
+_Alternatively, you can manually change the directory at:_
+
+   ```python
+   json_path = Path(r"C:\Users\REPLACE-YOUR-FOLDER-HERE\conversations")
+   ```
 ### Input Files
 
 Place JSON conversation files in the `conversations` folder. Example structure:
