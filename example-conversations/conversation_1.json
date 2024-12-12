@@ -1,0 +1,18 @@
+{
+    "conversation_data": [
+        {
+            "timestamp": "2024-12-10T10:00:00Z",
+            "sender": "Lead name",
+            "message": "Hello, I am interested in your product.",
+            "is_automated": false
+        },
+        {
+            "timestamp": "2024-12-10T10:05:00Z",
+            "sender": "Responder name",
+            "message": "Thank you for reaching out! How can I assist you further?",
+            "is_automated": false
+        }
+    ],
+    "parsed_at": "2024-12-10T11:00:00Z",
+    "total_messages": 2
+}

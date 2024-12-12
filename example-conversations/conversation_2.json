@@ -1,0 +1,24 @@
+{
+    "conversation_data": [
+        {
+            "timestamp": "2024-12-11T09:15:00Z",
+            "sender": "Lead name",
+            "message": "Can you tell me more about the pricing?",
+            "is_automated": false
+        },
+        {
+            "timestamp": "2024-12-11T09:20:00Z",
+            "sender": "Responder name",
+            "message": "Sure! Our pricing starts at $50/month. Do you have any specific requirements?",
+            "is_automated": false
+        },
+        {
+            "timestamp": "2024-12-11T09:22:00Z",
+            "sender": "Lead name",
+            "message": "Yes, I need integration with third-party apps.",
+            "is_automated": false
+        }
+    ],
+    "parsed_at": "2024-12-11T10:00:00Z",
+    "total_messages": 3
+}
