@@ -374,7 +374,7 @@ class ConversationLabeler:
         Loads all JSON files from the 'conversations' directory.
         """
         # Update the path to your 'conversations' directory
-        json_path = Path(r"C:\Users\MAMATHA\Desktop\Labeler\conversations")
+        json_path = Path(input('Please enter the path to your conversations directory: ') or r"Path to your conversations directory (e.g., './conversations')")
         print(f"Looking for conversations in: {json_path}")
 
         if not json_path.exists():
