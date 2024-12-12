@@ -1,4 +1,4 @@
-# Meta-Labeler: Advanced Conversation Labeling Tool
+# Meta-Labeler: Streamlined Conversation Labeling Tool
 
 <div align="center">
   <img src="https://github.com/PV-Bhat/Meta-Labeler/blob/main/labelerGIF.gif" title="Labeling Workflow in Action" width="682" height="362">
@@ -13,6 +13,7 @@ Meta-labeler is a powerful, user-friendly tool for processing and labeling conve
 - [Getting Started](#getting-started)
   - [Setup](#setup)
   - [Input Files](#input-files)
+  - [Using LW Chrome Extension with Meta-Labeller](#using-lw-chrome-extension-with-meta-labeller)
 - [Usage Instructions](#usage-instructions)
   - [Interface Overview](#interface-overview)
 - [Scoring Mechanisms](#scoring-mechanisms)
@@ -46,6 +47,9 @@ Meta-labeler is a powerful, user-friendly tool for processing and labeling conve
 
 ## Getting Started
 
+### Extract and Import data
+- Use a data extraction tool like [LW-Chrome-Extension](https://github.com/PV-Bhat/LW-Chrome-Extension) to get JSON files with the conversations to be labeled.
+
 ### Setup
 
 1. Clone the repository:
@@ -54,13 +58,13 @@ Meta-labeler is a powerful, user-friendly tool for processing and labeling conve
    cd meta-labeler
    ```
 2. Place your JSON files in a folder named `conversations` in the same directory.
-3. Run the tool:
+3. Run the tool from a terminal (Shift + Right-click and choose PowerShell):
    ```bash
    python conversation-labeler.py
    ```
 4. Input the file directory in the shell in order to start labelling.
 
-_Alternatively, you can manually change the directory at:_
+_Alternatively, you can also manually change the directory at:_
 
    ```python
    json_path = Path(r"C:\Users\REPLACE-YOUR-FOLDER-HERE\conversations")
@@ -111,6 +115,16 @@ Place JSON conversation files in the `conversations` folder. Example structure:
 The repository includes two sample JSON files in the `example-conversations` folder:
 - `conversation_1.json`
 - `conversation_2.json`
+
+## Using LW Chrome Extension with Meta-Labeller
+
+### Workflow
+1. **Start with LW Chrome Extension**: Export conversations from Meta Business Suite into JSON format.
+2. **Import into Meta-Labeller**: Use the exported JSON files as input for labeling.
+3. **Analyze and Refine**: Label, analyze, and export the processed data to structured formats (e.g., Excel).
+
+### Leads Wizard Ecosystem
+Meta-Labeller, along with LW Chrome Extension, forms the foundation of the **[Leads Wizard](https://github.com/PV-Bhat/LeadsWizard)** ecosystem, designed to bring efficiency and insights to lead and customer management workflows.
 
 ## Applications and Benefits
 
