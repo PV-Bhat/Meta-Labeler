@@ -116,7 +116,9 @@ The repository includes two sample JSON files in the `example-conversations` fol
 - `conversation_1.json`
 - `conversation_2.json`
 
-## Using LW Chrome Extension with Meta-Labeller
+## Using LW Chrome Extension with Meta-Labeler
+
+Follow instructions in README to download Meta-Labeler: https://github.com/PV-Bhat/Meta-Labeler
 
 ### Workflow
 1. **Start with LW Chrome Extension**: Export conversations from Meta Business Suite into JSON format.
