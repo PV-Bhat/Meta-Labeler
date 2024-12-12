@@ -13,7 +13,7 @@ Meta-labeler is a powerful, user-friendly tool for processing and labeling conve
 - [Getting Started](#getting-started)
   - [Setup](#setup)
   - [Input Files](#input-files)
-  - [Using LW Chrome Extension with Meta-Labeller](#using-lw-chrome-extension-with-meta-labeller)
+  - [Using LW Chrome Extension with Meta-Labeler](#using-lw-chrome-extension-with-meta-labeler)
 - [Usage Instructions](#usage-instructions)
   - [Interface Overview](#interface-overview)
 - [Scoring Mechanisms](#scoring-mechanisms)
@@ -44,6 +44,7 @@ Meta-labeler is a powerful, user-friendly tool for processing and labeling conve
   ```bash
   pip install pandas openpyxl
   ```
+- **Conversation files:** You'll need conversation files in **JSON** format with unique file IDs.
 
 ## Getting Started
 
@@ -59,11 +60,16 @@ Meta-labeler is a powerful, user-friendly tool for processing and labeling conve
    ```
 2. Place your JSON files in a folder named `conversations` in the same directory.
 3. Run the tool from a terminal (Shift + Right-click and choose PowerShell):
+  
+   ![image](https://github.com/user-attachments/assets/df57c205-3dfa-4a53-99f6-a5bacd608f7f)
+  
    ```bash
    python conversation-labeler.py
    ```
 4. Input the file directory in the shell in order to start labelling.
-
+  
+![image](https://github.com/user-attachments/assets/f4a027c8-b834-4778-b3c8-3e740e4e8765)
+  
 _Alternatively, you can also manually change the directory at:_
 
    ```python
@@ -118,7 +124,7 @@ The repository includes two sample JSON files in the `example-conversations` fol
 
 ## Using LW Chrome Extension with Meta-Labeler
 
-Follow instructions in README to download Meta-Labeler: https://github.com/PV-Bhat/Meta-Labeler
+Follow instructions in README to download the extension: https://github.com/PV-Bhat/LW-Chrome-Extension
 
 ### Workflow
 1. **Start with LW Chrome Extension**: Export conversations from Meta Business Suite into JSON format.
